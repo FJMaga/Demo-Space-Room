@@ -22,7 +22,7 @@ Video Juego Escape Room
 
 5- Añadir el interprete Pipenv Enviroment y pulsamos OK
 
-![Elección del interprete](/Juego Space Room/imagenes/markdown/interprete.png)
+![Elección del interprete](./Juego Space Room/imagenes/markdown/interprete.png)
 
 6- Pulsar el botón Run
 
