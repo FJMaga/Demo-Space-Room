@@ -1,3 +1,14 @@
+# Space-Room
+Video Juego Escape Room 
+
+**Requisitos**
+--------------
+
+1. Python 3.8.6
+2. PyGame 2.0.0
+3. SDL 2.0.12
+
+
 # *INSTRUCCIONES PARA EL DISFRUTE DE SPACE ROOM*
 
 
@@ -9,10 +20,10 @@
 
 4- Abrir el archivo main.py dentro del entrono de desarrollo PyCharm
 
-5- Añadir el interprete Pipenv Enviroment y pulsamos OK
+5- AÃ±adir el interprete Pipenv Enviroment y pulsamos OK
 
-![Elección del interprete](./imagenes/markdown/interprete.png)
+![ElecciÃ³n del interprete](./imagenes/markdown/interprete.png)
 
-6- Pulsar el botón Run
+6- Pulsar el botÃ³n Run
 
 7- Disfrutar !!!!
