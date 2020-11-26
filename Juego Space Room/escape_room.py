@@ -19,7 +19,7 @@ class EscapeRoom:
         """ INICIO DE MUSICA DE FONDO
         ------------------------------- """
 
-        pygame.mixer_music.load("./musica/musica_fondo.mp3")
+        pygame.mixer_music.load("./musica/musica_fondo.ogg")
         pygame.mixer_music.play(-1)
 
         """ CREACION DE PANTALLA INICIAL
@@ -469,7 +469,7 @@ class EscapeRoom:
                         self.sala_intermedia_izquierda = True
 
                         if not self.musica_parada:
-                            pygame.mixer_music.load("./musica/musica_fondo.mp3")
+                            pygame.mixer_music.load("./musica/musica_fondo.ogg")
                             pygame.mixer_music.play(-1)
                         break
 
@@ -478,7 +478,7 @@ class EscapeRoom:
                         self.sala_intermedia_izquierda = True
 
                         if not self.musica_parada:
-                            pygame.mixer_music.load("./musica/musica_fondo.mp3")
+                            pygame.mixer_music.load("./musica/musica_fondo.ogg")
                             pygame.mixer_music.play(-1)
 
                         break
@@ -492,14 +492,14 @@ class EscapeRoom:
                         self.sala_intermedia_izquierda = True
 
                         if not self.musica_parada:
-                            pygame.mixer_music.load("./musica/musica_fondo.mp3")
+                            pygame.mixer_music.load("./musica/musica_fondo.ogg")
                             pygame.mixer_music.play(-1)
 
                         break
 
                     if self.rect_puerta.collidepoint(x, y) and self.sala1_izquierda:
 
-                        pygame.mixer_music.load("./musica/cierre.mp3")
+                        pygame.mixer_music.load("./musica/cierre.ogg")
                         pygame.mixer_music.play()
 
                         self.tiempo_mostrar_info_puerta = 0
@@ -532,7 +532,7 @@ class EscapeRoom:
 
                         # reaudamos musica
 
-                        pygame.mixer_music.load("./musica/musica_fondo.mp3")
+                        pygame.mixer_music.load("./musica/musica_fondo.ogg")
                         pygame.mixer_music.play(-1)
 
                         # cambiamos estado musica a sonando
@@ -843,10 +843,10 @@ class EscapeRoom:
                     self.tiempo_mostrar_info_palanca += 1
 
                     if self.tiempo_mostrar_info_palanca == 1:
-                        pygame.mixer_music.load("./musica/palanca.mp3")
+                        pygame.mixer_music.load("./musica/palanca.ogg")
                         pygame.mixer_music.play()
                     if self.tiempo_mostrar_info_palanca == 3 and not self.musica_parada:
-                        pygame.mixer_music.load("./musica/musica_fondo.mp3")
+                        pygame.mixer_music.load("./musica/musica_fondo.ogg")
                         pygame.mixer_music.play(-1)
 
                 else:
@@ -928,14 +928,14 @@ class EscapeRoom:
                 self.ventana_juego.blit(self.fondo1, (0, 0))
 
                 if self.tiempo_mostrar_info_trampilla == 0:
-                    pygame.mixer_music.load("./musica/palanca.mp3")
+                    pygame.mixer_music.load("./musica/palanca.ogg")
                     pygame.mixer_music.play()
                 if self.tiempo_mostrar_info_trampilla == 1:
-                    pygame.mixer_music.load("./musica/reja.mp3")
+                    pygame.mixer_music.load("./musica/reja.ogg")
                     pygame.mixer_music.play()
 
                 if self.tiempo_mostrar_info_trampilla == 3 and not self.musica_parada:
-                    pygame.mixer_music.load("./musica/musica_fondo.mp3")
+                    pygame.mixer_music.load("./musica/musica_fondo.ogg")
                     pygame.mixer_music.play(-1)
 
                 if 0 <= self.tiempo_mostrar_info_trampilla <= 3:
@@ -1252,7 +1252,7 @@ class EscapeRoom:
                 self.codigo = self.ventana_juego.blit(self.codigo, (750, 190))
 
 
-                pygame.mixer_music.load("./musica/electricidad.mp3")
+                pygame.mixer_music.load("./musica/electricidad.ogg")
                 pygame.mixer_music.play()
 
 
@@ -1288,7 +1288,7 @@ class EscapeRoom:
                 self.huella_verde = self.ventana_juego.blit(self.huella_verde, (785, 150))
 
                 if self.cont == 0:
-                    pygame.mixer_music.load("./musica/introduccion_1.mp3")
+                    pygame.mixer_music.load("./musica/introduccion_1.ogg")
                     pygame.mixer_music.play()
                     self.cont += 1
 
@@ -1350,7 +1350,7 @@ class EscapeRoom:
                 self.ventana_juego.blit(self.fondo1, (0, 0))
 
                 if self.cont == 1:
-                    pygame.mixer_music.load("./musica/puerta_final.mp3")
+                    pygame.mixer_music.load("./musica/puerta_final.ogg")
                     pygame.mixer_music.play()
 
 
