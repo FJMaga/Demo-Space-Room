@@ -8,6 +8,14 @@ Video Juego Escape Room
 2. PyGame 2.0.0
 3. SDL 2.0.12
 
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="path/to/video.mp4" type="video/mp4">
+    <source src="path/to/video.ogg" type="video/ogg">
+    <source src="path/to/video.webm" type="video/webm">
+  </video>
+</figure>
+
 
 # *INSTRUCCIONES PARA EL DISFRUTE DE SPACE ROOM*
 
