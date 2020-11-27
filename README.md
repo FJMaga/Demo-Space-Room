@@ -1,7 +1,7 @@
 # Demo Space Room
 Video Juego Escape Room 
 
-[![Menú del Juego](https://img.youtube.com/vi/VIDEO-ID/0.jpg)](http://www.youtube.com/watch?v=VIDEO-ID)
+[![Menú del Juego](./markdown/menu.png)](http://www.youtube.com/watch?v=VIDEO-ID)
 
 **Requisitos**
 --------------
